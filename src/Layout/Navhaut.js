@@ -3,6 +3,8 @@ import React, { Component } from 'react'
 export class Navhaut extends Component {  
     render() {  
         return (
+            <div class="wrapper">
+
             <header class="main-header">
 	<div class="d-flex align-items-center logo-box pl-10">		
 		<a href="#" class="waves-effect waves-light nav-link rounded d-none d-md-inline-block push-btn" data-toggle="push-menu" role="button">
@@ -173,6 +175,7 @@ export class Navhaut extends Component {
       </div>
     </nav>
     </header>
+    </div>
         )
         }
 
